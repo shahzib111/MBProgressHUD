@@ -20,7 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # Add this line to include the privacy manifest
   s.resource_bundles = {
-    'MBProgressHUD_Privacy' => ['PrivacyInfo.xcprivacy']
+    'MBProgressHUD_Privacy' => ['MBProgressHUD/PrivacyInfo.xcprivacy']
   }
-  s.resources = "PrivacyInfo.xcprivacy"
-end
+s.resources = "MBProgressHUD/PrivacyInfo.xcprivacy"end
