@@ -18,4 +18,8 @@ Pod::Spec.new do |s|
   s.resource_bundles = {'MBProgressHUD' => ['PrivacyInfo.xcprivacy']}
   s.frameworks   = "CoreGraphics", "QuartzCore"
   s.requires_arc = true
+  # Add this line to include the privacy manifest
+  s.resource_bundles = {
+    'MBProgressHUD_Privacy' => ['MBProgressHUD/PrivacyInfo.xcprivacy']
+  }
 end
