@@ -23,3 +23,5 @@ Pod::Spec.new do |s|
     'MBProgressHUD_Privacy' => ['MBProgressHUD/PrivacyInfo.xcprivacy']
   }
   s.resources = "MBProgressHUD/PrivacyInfo.xcprivacy"end
+  s.resources = "PrivacyInfo.xcprivacy"end
+
