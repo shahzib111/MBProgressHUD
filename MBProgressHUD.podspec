@@ -22,4 +22,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'MBProgressHUD_Privacy' => ['MBProgressHUD/PrivacyInfo.xcprivacy']
   }
-s.resources = "MBProgressHUD/PrivacyInfo.xcprivacy"end
+  s.resources = "MBProgressHUD/PrivacyInfo.xcprivacy"end
